@@ -3,7 +3,7 @@ import dayjs from "dayjs";
 import { useLoaderData } from "remix";
 
 type Data = {
-  data: object;
+  data: object[];
   fromKV: boolean;
   diff: number;
 };
