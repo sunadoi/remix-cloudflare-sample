@@ -2,9 +2,13 @@ name = "remix-cloudflare-workers"
 type = "javascript"
 
 zone_id = ""
-account_id = ""
+account_id = "90d66e735e1df45f78ac0a7e9743a8db"
 route = ""
 workers_dev = true
+
+kv_namespaces = [
+  { binding = "MY_KV", id = "307687a41dd84279a403ff96c06e13ee" }
+]
 
 [site]
 bucket = "./public"
